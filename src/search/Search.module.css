@@ -1,0 +1,33 @@
+.search_box {
+    margin: 30px;
+}
+
+.search {
+    padding: 12px;
+    font-size: large;
+    border-radius: 12px;
+}
+
+.dropdown {
+    text-align: center;
+    background-color: pink;
+    border: 1px solid palevioletred;
+    border-radius: 4px;
+    max-height: 200px;
+    min-width: 250px;
+    overflow-y: auto;
+    position: absolute;
+    z-index: 1000;
+}
+
+.dropdown_li {
+    color: rgb(152, 10, 152);
+    padding: 10px;
+    cursor: pointer;
+    list-style: none;
+}
+
+.dropdown_li:hover {
+    background-color: pink;
+    color: rgb(201, 33, 201);
+}
